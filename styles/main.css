@@ -60,6 +60,7 @@
     font-size: 30px;
     font-family: 'Rubik', sans-serif;
     color: var(--fontcolortext);
+    font-weight: bold;
 }
 
 @media all and (min-width: 768px) {
@@ -68,6 +69,10 @@
         flex-direction: row;
         justify-content: space-between;
 
+    }
+
+    .main {
+        font-size: 40px;
     }
 
     .logo {
